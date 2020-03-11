@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rootPage {
+  height: calc(100vh - 175px);
+    width: 100vw;
+    padding: 0px 20px;
+}
