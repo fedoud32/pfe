@@ -14,6 +14,7 @@ const RootContainer = () => {
 
     return(
         <UserContext.Provider value={{user, setUser}} >
+            
             <Switch>
                 <Route exact  path='/' header footer component={HomeContainer} />
                 <Route  path='/login' footer component={LoginContainer} />

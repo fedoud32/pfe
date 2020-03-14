@@ -1,8 +1,9 @@
 .cardContainer {
     display: flex;
     justify-content: center;
-    height: 60%;
-    width: 100%;
+    height: 50vh;
+    width: 80%;
+    box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.3);
 }
 .leftPart {
     width: 30%;
