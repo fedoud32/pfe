@@ -1,0 +1,12 @@
+.components_inputs_label {
+    font-family: 'Maven Pro';
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 18px;
+    letter-spacing: normal;
+    color: var(--greyish-brown);
+    .components_inputs_required_field {
+      color: var(--cherry);
+    }
+  }

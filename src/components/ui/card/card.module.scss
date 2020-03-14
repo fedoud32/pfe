@@ -1,0 +1,17 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+.leftPart {
+    width: 30%;
+    height: 100%;
+    background-image: url('../../../assets/png/bg.png') ;
+    background-position: center;
+    background-size: cover;
+}
+.rightPart {
+    width: 70%;
+    height: 100%;
+}

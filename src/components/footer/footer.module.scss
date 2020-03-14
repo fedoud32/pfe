@@ -2,6 +2,43 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    height: 80px;
+    flex-direction: column;
+    height: 110px;
     align-items: center;
+    background-color: #001A3A;
+    color: white;
+}
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    align-items: center;
+    .right {
+        width: 50%;
+    display: flex;
+    justify-content: space-between;
+    }
+    span {
+        cursor: pointer;
+        &:hover {
+            color: grey;
+        }
+    }
+}
+.topFooter {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    height: 60%;
+    align-items: center;
+    .socailMedia {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        img {
+            width: 25px;
+        }
+    }
 }

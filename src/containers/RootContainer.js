@@ -3,8 +3,9 @@ import { Switch } from 'react-router-dom';
 import Route from '../components/route/route';
 import UserContext from '../components/contexts/userContext'
 
-// container
+// containers
 import HomeContainer from '../containers/homeContainer'
+import LoginContainer from './loginContainer';
 
 const RootContainer = () => {
 
@@ -14,7 +15,8 @@ const RootContainer = () => {
     return(
         <UserContext.Provider value={{user, setUser}} >
             <Switch>
-                <Route  path='/' header footer component={HomeContainer} />
+                <Route exact  path='/' header footer component={HomeContainer} />
+                <Route  path='/login' footer component={LoginContainer} />
             </Switch>
         </UserContext.Provider>
         

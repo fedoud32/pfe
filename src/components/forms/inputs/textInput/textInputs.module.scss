@@ -1,0 +1,38 @@
+.components_inputs_text_input {
+    width: 100%;
+  
+    .text_input_input {
+      border-color: #9a9a9a !important;
+      width: 100%;
+      border-radius: 4px;
+      > div {
+        padding: 0 !important;
+      }
+      input,
+      textarea {
+        font-size: 20px;
+        line-height: 18px;
+        box-sizing: border-box;
+        height: auto;
+        color: var(--greyish-brown) !important;
+        padding: 15px 18px !important;
+      }
+      input {
+        height: var(--input-height) !important;
+      }
+      input::placeholder,
+      textarea::placeholder {
+        color: var(--pinkish-grey);
+        opacity: 1;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type='number'] {
+        -moz-appearance: textfield;
+      }
+    }
+  }
+  
