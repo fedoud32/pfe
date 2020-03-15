@@ -1,5 +1,5 @@
-import React, { forwardRef, Ref } from 'react';
-import TextField, { OutlinedTextFieldProps } from '@material-ui/core/TextField/TextField';
+import React, { forwardRef } from 'react';
+import TextField from '@material-ui/core/TextField/TextField';
 import Label from '../label/label';
 import ErrorText from '../errorText/errorText';
 import classNames from '../../../../utils/classNames';

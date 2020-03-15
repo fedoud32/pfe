@@ -1,0 +1,84 @@
+.cardWrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resterConnecter {
+
+  span {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+  }
+}
+
+.btnLogin {
+  display: flex;
+  position: relative;
+}
+.login_loader {
+  position: absolute;
+  right: 20px;
+  color: #ed1e79;
+}
+.creationCompte {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10px 0;
+  a {
+    font-family: Maven Pro;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+.forgetPassword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    font-family: Maven Pro;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+
+.forgotPswd {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ed1e79;
+}
+.registerText {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  color: #301f77;
+}
+
+.inputWrapperLogin {
+  width: 100%;
+  margin: 17px 0px;
+  p {
+    height: 3px;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 14px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: red;
+  }
+}
+
+.submitButton {
+  width: 373px !important;
+  height: 58px !important;
+}
