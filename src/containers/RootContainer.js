@@ -18,6 +18,7 @@ const RootContainer = () => {
             <Switch>
                 <Route exact  path='/' header footer component={HomeContainer} />
                 <Route  path='/login' footer component={LoginContainer} />
+                <Route  path='/login' footer component={ProfileContainer} />
             </Switch>
         </UserContext.Provider>
         
